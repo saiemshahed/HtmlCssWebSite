@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    color: #333;
+}
+.area{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header {
+    overflow: hidden;
+    background-color: rgb(121, 118, 121);
+    height: 170px;
+    padding-right: 10px;
+}
+.logo{ margin: 20px;
+    float: left;
+    width: 238px;
+}
+.logo img {
+    width: 80%;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    padding: 2px;
+    height: 98px;
+}
+.menu {
+    float: right;
+    width: 700px;
+}
+.menu ul{
+    list-style: none;
+    text-align: right;
+    margin-top: 20px;
+}
+.menu ul li{
+    display:inline-block;
+    
+}
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    color: #333;
+    font-size: 27px;
+}
+.menu ul li a:hover{
+    background: rgb(253, 251, 250);
+}
+
+.page-banner{
+    background-color: thistle;
+}
+.banner img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.page-banner img {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 27px;
+}
+.page-banner h4 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 449px;
+    background: #8383d0;
+    text-transform: capitalize;
+} 
+
+.title h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 31px;
+    text-transform: capitalize;
+}
+
+.page-banner {
+    background-image: url('../assets/banner.jpg');
+    height: 260px;
+}
+.page-banner h4 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 449px;
+    background: #8383d0;
+    text-transform: capitalize;
+} 
+.page-banner h4:hover{
+    background: rgb(255, 255, 255);
+}
+
+.gallary{}
+.title{
+    text-align: center;
+    background: chocolate;
+    color: #000;
+}
+.gallary-box {
+    width: 100%;
+    overflow: hidden;
+    background: chocolate;
+}
+
+.single-gallary {
+    display: inline-flex;
+    margin: 20px;
+    /* float: left; */
+    /* margin-left: 21px;
+    padding: 4px;
+    padding-left: 0px; */
+}
+/* .gallary .single-gallary:nth-child(3),
+.gallary .single-gallary:nth-child(6){
+    margin-right: 0;
+} */
+
+
+
+
+ .footer {
+        text-align: center;
+        font-size: 14px;
+        /* color: #fff; */
+    }
+ 
+    .footer p {
+        background: wheat;
+        height: 27px;
+        font-weight: bold;
+        font-size: 21px;
+    }
+    .footer p a {
+        color: #e81010;
+        text-decoration: none;
+        border-bottom: 1 px solid #ddd;
+        display: inline-block;
+       
+    }
+    .footer p:hover{
+        background: rgb(252, 251, 250);
+    }
